@@ -1,6 +1,6 @@
 # Event Management Company Website
 
-Welcome to the **[Your Event Management Company Name]** website repository! This project is a fully functional and responsive website designed to showcase our event management services, portfolio, and contact information.
+Welcome to the website repository! This project is a fully functional and responsive website designed to showcase our event management services, portfolio, and contact information.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Welcome to the **[Your Event Management Company Name]** website repository! This
 
 ## About
 
-This website is developed for **[Your Event Management Company Name]**, a company specializing in organizing and managing events such as weddings, corporate events, concerts, and more. The website provides information about our services, showcases past events in our portfolio, and allows potential clients to contact us for inquiries and quotes.
+This website is developed for SanSquare Events, a company specializing in organizing and managing events such as weddings, corporate events, concerts, and more. The website provides information about our services, showcases past events in our portfolio, and allows potential clients to contact us for inquiries and quotes.
 
 ## Features
 
