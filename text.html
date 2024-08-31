@@ -1,0 +1,170 @@
+<!;
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sansquare Events</title>
+    <style>
+        /* Updated CSS for purple and gold color scheme */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F3F3F3; /* Light Gray Background */
+        }
+        header {
+            background-color: #4B0082; /* Purple Header */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #6A0DAD; /* Dark Purple Navigation */
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #8A2BE2; /* Lighter Purple on Hover */
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            padding: 40px 0;
+        }
+        .services, .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service-item, .portfolio-item {
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .service-item h3, .portfolio-item h3 {
+            color: #4B0082; /* Purple Text for Titles */
+        }
+        .service-item p, .portfolio-item p {
+            color: #333;
+        }
+        footer {
+            background-color: #4B0082; /* Purple Footer */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="Sansquare Events Logo.png" alt="Sansquare Events Logo" style="width: 150px;">
+        <h1>Sansquare Events</h1>
+        <p>Making Your Events Unforgettable</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to Sansquare Events</h2>
+            <p>We specialize in creating memorable events tailored to your needs.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn more about our team, our mission, and what makes us unique in the world of event management.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-item">
+                    <h3>Weddings</h3>
+                    <p>From intimate ceremonies to grand celebrations, we handle all aspects of wedding planning.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Corporate Events</h3>
+                    <p>We organize professional and engaging corporate events, from meetings to conferences.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Parties</h3>
+                    <p>Whether it's a birthday or anniversary, we make your parties unforgettable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="wedding_event_image.png" alt="Wedding Event" style="width:100%;">
+                    <h3>Wedding Elegance</h3>
+                    <p>A beautiful wedding setup with purple and gold accents, showcasing our attention to detail and creativity.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="corporate_event_image.png" alt="Corporate Event" style="width:100%;">
+                    <h3>Corporate Excellence</h3>
+                    <p>Professional corporate event with a modern purple theme, designed for impact and engagement.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="party_event_image.png" alt="Party Event" style="width:100%;">
+                    <h3>Party Vibes</h3>
+                    <p>A lively party setup with vibrant purple and gold decor, perfect for any celebration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Please fill out the form below to get in touch.</p>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sansquare Events. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
